@@ -1,0 +1,655 @@
+.navbar a:hover{
+    color: rgb(248, 250, 250);
+}
+.profile a:hover{
+    color: rgb(7, 7, 7);
+}
+.navbar{
+    background:linear-gradient( to right,#59a5c3,#9dd7d3);
+    width: 100%;
+}
+
+/* section1 */
+.part1 .div1{
+    width: 100%;
+    height: 300px;
+    background:linear-gradient(to right top , #2f718b,#9dd7d3);
+}
+.part1 h6{
+    color: rgb(83, 116, 159); 
+    font-size: 20px;
+}
+.div1 input[type="search"]{
+    border: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    box-shadow: none;
+    width: 350px; 
+    height:50px; 
+    outline: none; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div1 button{
+    border: none;
+    background-color: rgb(162, 220, 243);
+    transition: all 0.3;
+}
+
+.part1 .div2{
+    position: relative;
+    width: 100%;
+    background-color: #81DAE3;
+    border-bottom-left-radius:60px;
+    border-bottom-right-radius: 60px;
+}
+.part1 .div2 .inner{
+    position: relative;
+    top: -40px;
+}
+.div2a{
+    text-decoration: none;
+}
+.div2 .card-overlay{
+    position: relative;
+    overflow: hidden;
+}
+.div2 .card-overlay img{
+    position: absolute;
+    top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+      z-index: 1;
+}
+.blue-overlay{
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(170, 201, 254, 0.5);
+      z-index: 2;
+}
+.div2 .card-body{
+    position: relative;
+    z-index: 3;
+}
+
+#symbol{
+    margin-top: 100px;
+}
+.symbol a{
+    width: 30px;
+    height: 30px;
+    color: black;
+    padding: 5px;
+    background-color: skyblue;
+    border-radius: 50%;
+}
+#card1{
+    width: 25rem;
+}
+
+#card2{
+    
+    width: 34rem;
+}
+.find{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: white; 
+    width: 500px; 
+    padding: 5px 10px; 
+    border-radius: 30px;
+}
+
+.part1 .find button{
+    border-radius: 25px; 
+    font-size: 20px; 
+    padding: 8px 30px; 
+    font-weight: 50px; 
+    color: white;
+    background-color: rgb(94, 189, 226); 
+}
+/* part-2 */
+.part-2 .part2div{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    /* d-flex justify-content-center gap-5 mt-3 */
+}
+
+.part-2 .container a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.part-2 .container a:hover{
+    color: blue;
+}
+/* part-3 */
+.part-3 .overimg{
+    width: 100%; 
+    height: 700px;
+    position: relative;
+}
+.part-3 .lay{
+    position: absolute; 
+    background-color: rgba(0, 229, 255, 0.251); 
+    top: 0; left: 0; 
+    width: 100%; 
+    height: 100%; 
+    z-index: 2;
+}
+.part-3 .overimg{
+    width: 100%; 
+    height: 700px;
+    position: relative; 
+}
+.part-3 .p3contentdiv{
+    display: flex; 
+    flex-direction: column; 
+    /* align-content: center;  */
+    align-items: center;
+    /* width: 900px;  */
+    /* margin-left: 380px; */
+}
+.part-3 .p3contentdiv .divcontent{
+    width: 750px;
+}
+.part-3 .icon-holder1{
+    position: absolute; 
+    bottom: 380px; 
+    left: 270px; 
+    font-size: 40px;
+}
+.part-3 .icon-holder2{
+    position: absolute; 
+    bottom: 220px; 
+    left: 270px; 
+    font-size: 40px;
+}
+.part-3 .icon-holder3{
+    position: absolute; 
+    bottom: 75px; 
+    left: 270px; 
+    font-size: 40px;
+}
+
+/* part-4 */
+.part-4 .frequent{
+    margin:0px 60px;
+}
+.part-4 .ques{
+    width: 500px;
+}
+.part-4 .part4div{
+    display:flex;
+    justify-content:space-around;
+}
+.part-4 .div4pic{
+    width: 400px; 
+    height: 400px;
+}
+.part-4 .div4pic img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+.part-4 .accstyle{
+    width: 600px;
+}
+
+/* part-5 */
+#address1{
+    width: 300px;
+}
+#address2{
+    width: 300px;
+}
+.part-5 .part5div{
+    display: flex;
+    justify-content:center ;
+    gap: 50px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    /* d-flex justify-content-center gap-5 mt-2 pb-4 */
+}
+
+/* footer  */
+.footerdiv{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    /* d-flex justify-content-between p-5  */
+}
+.divf a{
+    text-decoration: none;
+}
+.part1 .container{
+    margin:0;
+}
+#box{
+    width: 300px    ;
+}
+.divf a{
+    display: inline-block;
+    font-family: cursive;
+}
+#box a{
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.copy{
+    font-size: cursive;
+}
+#box a:hover{
+    color: rgb(232, 236, 9);
+}
+.transform:hover{
+    transform: translate(20px,0px);
+    
+}
+/* small screen */
+.card:hover{
+    transition-timing-function: 0.2s;
+    transition-delay: 0;
+    transition: all;
+}
+.card:hover{
+    transform: scale(1.1 , 1.1);
+
+}       
+
+
+
+@media screen and (max-width:427px){
+
+    /* part-1 */
+    .find{
+        width: 310px;
+    }
+    [text="search"]{
+        width: 300px;
+    }
+    .part1 h6{
+        text-align: center;
+    }
+    .part1 .find button{
+        border-radius: 25px; 
+        font-size: 15px; 
+        padding: 8px 15px; 
+        font-weight: 40px; 
+        
+    }
+    .part1 .inner{
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+    }
+    #card1{
+        width: 16rem;
+    }
+    .part1 .div2 #card2{
+        width: 18rem;
+    }
+    /* part-2 */
+    .part-2  .part2div{
+        
+        flex-direction:column;
+        align-items: center;
+    }
+    /* part-3 */
+    .part-3 .p3contentdiv .divcontent{
+        width: 300px;
+    }
+    .divcontent p{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .part-3 .overimg{
+        width: 100%; 
+        height: 100%;
+        position: relative; 
+    }
+    .part-3 .icon-holder1{
+        display: none;
+    }
+    .part-3 .icon-holder2{
+        display: none;
+    }
+    .part-3 .icon-holder3{
+        display: none;
+    }
+
+
+    /* part-4 */
+    .part-4 .frequent{
+       margin: 0px 10px;
+    }
+    .part-4 .ques{
+        width: 300px;
+    }
+    .part-4  .part4div{
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+    }
+    .part-4 .accstyle{
+        width: 300px;
+    }
+    .part-4 .div4pic{
+        width: 300px; 
+        height: 300px;
+    }
+    /* part-5 */
+    .part-5 .part5div {
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+    }
+    .part-5 #iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .part-5 #iframe iframe{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    /* footer */
+    footer .footerdiv{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+        } 
+   
+}
+
+@media screen and (min-width:427px)and (max-width:770px){
+    /* part-1 */
+    .part1 .inner{
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+    }
+    /* part-2 */
+    .part-2 .part2div{
+        gap: 10px;
+    }
+
+    /* part-3 */
+    .part-3 .p3contentdiv .divcontent{
+        width: 600px;
+    }
+    .part-3 .overimg{
+        width: 100%; 
+        height: 100%;
+        position: relative; 
+    }
+    .part-3 .icon-holder1{
+        position: absolute; 
+        bottom: 420px; 
+        left: 30px; 
+        font-size: 40px;
+    }
+    .part-3 .icon-holder2{
+        position: absolute; 
+        bottom: 240px; 
+        left: 30px; 
+        font-size: 40px;
+    }
+    .part-3 .icon-holder3{
+        position: absolute; 
+        bottom: 80px; 
+        left: 30px; 
+        font-size: 40px;
+    }
+    /* part-4 */
+    .part-4 .accstyle{
+        width: 300px;
+    }
+    .part-4 .div4pic{
+        width: 300px; 
+        height: 300px;
+    }
+
+    /* part-5 */
+    .part-5 .part5div {
+        display: flex;
+        justify-content: space-around;
+        /* flex-direction:column; */
+        align-items: center;
+        gap: 10px;
+    }
+    .part-5 #iframe{
+        width: 250px;
+        height: 200px;
+        
+    }
+    .part-5 #iframe iframe{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #address1{
+        width: 220px;
+    }
+    #address2{
+        width: 220px;
+    }
+    #address1 p{
+        font-size: 12px;
+    }
+    #address2 p{
+        font-size: 12px;
+    }
+
+    /* footer */
+    footer .footerdiv{
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+        /* flex-direction:column; */
+        align-content: center;
+    } 
+    #box{
+        width: 150px;
+        font-size: 14px;
+    }
+    .b3{
+        width: 200px;
+    }
+    footer .footerdiv h1{
+        font-size: 25px;
+    }
+
+}
+@media screen and (min-width:427px) and (max-width:660px) {
+    /* part-1 */
+    .find{
+        width: 400px;
+    }
+    [text="search"]{
+        width: 300px;
+    }
+    .part1 h6{
+        text-align: center;
+    }
+    .part1 .find button{
+        border-radius: 25px; 
+        font-size: 15px; 
+        padding: 8px 15px; 
+        font-weight: 40px; 
+        
+    }
+    .part1 .div2 #card2{
+        width: 26rem;
+    }
+
+    /* part-2 */
+    .part-2  .part2div{
+        
+        flex-direction:column;
+        align-items: center;
+    }
+    /* .part-4 */
+    .part-4 .frequent{
+        margin: 0px 10px;
+     }
+     .part-4 .ques{
+         width: 300px;
+     }
+     .part-4  .part4div{
+         display: flex;
+         justify-content: center;
+         flex-direction:column;
+         align-items: center;
+     }
+     .part-4 .accstyle{
+         width: 400px;
+     }
+     .part-4 .div4pic{
+         width: 400px; 
+         height: 400px;
+     }
+    /* part-3 */
+    .part-3 .overimg{
+        width: 100%; 
+        height: 100%;
+        position: relative;
+    }
+    .part-3 .p3contentdiv .divcontent{
+        width: 400px;
+    }
+    .part-3 .overimg{
+        width: 100%; 
+        height: 100%;
+        position: relative; 
+    }
+    .part-3 .icon-holder1{
+        display: none;
+    }
+    .part-3 .icon-holder2{
+        display: none;
+    }
+    .part-3 .icon-holder3{
+        display: none;
+    }
+    .part-5 .part5div {
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+    }
+    .part-5 #iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .part-5 #iframe iframe{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    /* footer */
+    footer .footerdiv{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+        } 
+
+
+        .part-3 .p3contentdiv{
+            display: flex;
+            justify-content: center;
+        }
+
+}
+@media screen and (min-width:1021px)and (max-width:1028px){
+    .part-3 .icon-holder1{
+        position: absolute; 
+        bottom: 420px; 
+        left: 50px; 
+        font-size: 40px;
+    }
+    .part-3 .icon-holder2{
+        position: absolute; 
+        bottom: 240px; 
+        left: 50px; 
+        font-size: 40px;
+    }
+    .part-3 .icon-holder3{
+        position: absolute; 
+        bottom: 80px; 
+        left: 50px; 
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:427px)and (max-width:760px){
+    .part-3 .icon-holder1{
+        display: none;
+    }
+    .part-3 .icon-holder2{
+        display: none;
+    }
+    .part-3 .icon-holder3{
+        display: none;
+    }
+}
+
+@media screen and (min-width:771px)and (max-width:1020px){
+    .part-3 .icon-holder1{
+        display: none;
+    }
+    .part-3 .icon-holder2{
+        display: none;
+    }
+    .part-3 .icon-holder3{
+        display: none;
+    }
+}
+@media screen and (min-width:1027px)and (max-width:1439px){
+    .part-3 .icon-holder1{
+        display: none;
+    }
+    .part-3 .icon-holder2{
+        display: none;
+    }
+    .part-3 .icon-holder3{
+        display: none;
+    }
+}
+@media screen and (min-width:1930px){
+    .part-3 .p3contentdiv .divcontent{
+        width: 1200px;
+    }
+}
+@media screen and (min-width:1930px){
+    .part-3 .icon-holder1{
+        display: none;
+    }
+    .part-3 .icon-holder2{
+        display: none;
+    }
+    .part-3 .icon-holder3{
+        display: none;
+    }
+
+}
